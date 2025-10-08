@@ -1553,6 +1553,7 @@
         "overall_impression": "A moderately colored, well-attenuated, bitter beer with a rich maltiness balancing a strong bitterness. Light and spicy hop character complements the malt. A dry beer with a firm body and smooth palate.",
         "aroma": "Malty and rich with grainy characteristics like baked bread or nutty, toasted bread crusts. Should not have darker roasted or chocolate notes. Malt intensity is moderate to moderately-high. Moderate to low hops complement but do not dominate the malt, and often have a spicy, peppery, or floral character. Fermentation character is very clean. Low to medium-low esters optional.",
         "appearance": "The color ranges from amber to deep copper, stopping short of brown; bronze-orange is most common. Brilliant clarity. Thick, creamy, long-lasting off-white head.Flavor",
+        "flavor": "Malt profile similar to the aroma, with an assertive, medium to high hop bitterness balancing the rich malty flavors. The beer finishes medium-dry to dry with a grainy, bitter, malty-rich aftertaste. The finish is long-lasting, sometimes with a nutty or bittersweet impression. The apparent bitterness level is sometimes masked by the malt character if the beer is not very dry, but the bitterness tends to scale with the malt richness to maintain balance. No roast. No harshness. Clean fermentation profile. Light fruity esters, especially dark fruit, may be present. Medium to low spicy, peppery, or floral hop flavor. Light minerally character optional.",
         "mouthfeel": "Medium body. Smooth. Medium to medium-high carbonation. Astringency low to none.",
         "comments": "Classic, traditional examples in the Altstadt (“old town”) section of Düsseldorf are served from casks.Most examples have a balanced (25-35 IBU) bitterness, not the aggressive hop character of the well-known Zum Uerige.Stronger sticke and doppelsticke beers should be entered in the 27 Historical Beer style instead.",
         "history": "Developed in the late 19th century in Düsseldorf to use lager techniques to compete with lager. Older German styles were brewed in the area but there is no linkage to modern Altbier.",
@@ -4447,15 +4448,15 @@
         "name": "Belgian IPA",
         "style_id": "21B1",
         "category": "Specialty IPA",
-        "categorynumber": "21",
-        "overallimpression": "A dry, hoppy IPA with fruitiness and spiciness of Belgian yeast. Often lighter in color and more attenuated, similar to a Belgian Tripel that has been brewed with more hops.",
+        "category_id": "21",
+        "overall_impression": "A dry, hoppy IPA with fruitiness and spiciness of Belgian yeast. Often lighter in color and more attenuated, similar to a Belgian Tripel that has been brewed with more hops.",
         "aroma": "Moderate to high hop aroma, often reflecting the character of American or New World hops (tropical, melon, stone fruit, citrus, piney, etc.) or Continental hops (spicy, herbal, floral, etc.), possibly with a light dry-hop note. Gentle malt sweetness, sometimes with a sugary or honey character, but rarely caramel. Moderate to high esters, often pears, apples, citrus, or banana. Light spice, clove or pepper, optional. Light alcohol aroma optional.",
         "appearance": "Light golden to amber in color. Moderate to large off-white head with good retention. Good to quite hazy clarity.",
         "flavor": "Moderate fruity and spicy flavors, same descriptors as aroma. Moderate to high hop flavor, same descriptors as aroma. Light, relatively neutral grainy malt flavor, optionally with low toast, caramel, or honey. Moderate to high bitterness. Dry to medium-dry finish that often accentuates the perception of bitterness. Aftertaste has a lingering bitterness but is not harsh.",
         "mouthfeel": "Light to medium body. Medium to high carbonation level, which can lighten the impression of body. Light warmth optional.",
         "comments": "The choice of yeast strain and hop varieties is critical since many choices will clash horribly.",
         "history": "A relatively modern style, dating from the mid-2000s. Homebrewers and craft breweries substituted Belgian yeast in their American IPA recipes. Belgian breweries typically added more hops to their stronger pale beers.",
-        "characteristicingredients": "Belgian yeast strains used in making Belgian Tripels and Golden Strong Ales. American examples tend to use American or New World hops while Belgian versions tend to use European hops and only pale malt. Sugar adjuncts common.",
+        "ingredients": "Belgian yeast strains used in making Belgian Tripels and Golden Strong Ales. American examples tend to use American or New World hops while Belgian versions tend to use European hops and only pale malt. Sugar adjuncts common.",
         "stylecomparison": "A cross between an American IPA or Double IPA with a Belgian Golden Strong Ale or Belgian Tripel. This style is may be spicier, stronger, drier, and fruitier than an American IPA.",
         "international_bitterness_units": {
           "minimum": {
@@ -4507,22 +4508,24 @@
             "value": 8
           }
         },
-        "commercialexamples": "Brewery Vivant Triomphe, Green Flash Le Freak, Houblon Chouffe, Urthel Hop It",
-        "tags": "high-strength, pale-color, top-fermented, north-america, craft-style, ipa-family, specialty-family, bitter, hoppy"
+        "examples": "Brewery Vivant Triomphe, Green Flash Le Freak, Houblon Chouffe, Urthel Hop It",
+        "tags": "high-strength, pale-color, top-fermented, north-america, craft-style, ipa-family, specialty-family, bitter, hoppy",
+        "style_guide": "BJCP2021",
+        "type": "beer"
       },
       {
         "name": "Black IPA",
         "style_id": "21B2",
         "category": "Specialty IPA",
-        "categorynumber": "21",
-        "overallimpression": "A beer with the dryness, hop-forward balance, and flavor characteristics of an American IPA, but darker in color. Darker malts add a gentle and supportive flavor, not a strongly roasted or burnt character.",
+        "category_id": "21",
+        "overall_impression": "A beer with the dryness, hop-forward balance, and flavor characteristics of an American IPA, but darker in color. Darker malts add a gentle and supportive flavor, not a strongly roasted or burnt character.",
         "aroma": "Moderate to high hop aroma, often with a stone fruit, tropical, citrusy, resinous, pine, berry, or melon character. Very low to moderate malt, possibly with light chocolate, coffee, or toast notes, as well as a background caramel sweetness. Clean fermentation profile, but light esters acceptable.",
         "appearance": "Dark brown to black color. Clear, if not opaque. Light haze allowable, but should not be murky. Light tan to tan head, moderate size, persistent.",
         "flavor": "Medium-low to high hop flavor, same descriptors as aroma. Low to medium malt flavor, with restrained chocolate or coffee notes, but not burnt or ashy. The roasted notes should not clash with the hops. Light caramel or toffee optional. Medium-high to very high bitterness. Dry to slightly off-dry finish, with a bitter but not harsh aftertaste, often with a light roast flavor that can contribute to the dry impression. Low to moderate esters optional. Background alcohol flavor optional.",
         "mouthfeel": "Smooth. Medium-light to medium body. Medium carbonation. Light creaminess optional. Light warmth optional.",
         "comments": "Most examples are standard strength. Strong examples can sometimes seem like big, hoppy porters if made too extreme, which hurts their drinkability.",
         "history": "An American IPA variant first commercially produced by Greg Noonan as Blackwatch IPA around 1990. Popularized in the Pacific Northwest and Southern California of the US starting in the early-mid 2000s, and was a popular fad in the early 2010s before fading into obscurity in the US.",
-        "characteristicingredients": "Debittered roast malts. Any American or New World hop character is acceptable; new hop varieties continue to be released and should not constrain this style to the example hop characteristics listed.",
+        "ingredients": "Debittered roast malts. Any American or New World hop character is acceptable; new hop varieties continue to be released and should not constrain this style to the example hop characteristics listed.",
         "stylecomparison": "Balance and overall impression of an American or Double IPA with restrained roast similar to the type found in Schwarzbier. Not as rich and roasty as American Stout and Porter, and with less body and increased smoothness and drinkability.",
         "international_bitterness_units": {
           "minimum": {
@@ -4574,22 +4577,24 @@
             "value": 40
           }
         },
-        "commercialexamples": "21st Amendment Back in Black, Duck-Rabbit Hoppy Bunny ABA, Stone Sublimely Self-Righteous Black IPA",
-        "tags": "high-strength, dark-color, top-fermented, north-america, craft-style, ipa-family, specialty-family, bitter, hoppy"
+        "examples": "21st Amendment Back in Black, Duck-Rabbit Hoppy Bunny ABA, Stone Sublimely Self-Righteous Black IPA",
+        "tags": "high-strength, dark-color, top-fermented, north-america, craft-style, ipa-family, specialty-family, bitter, hoppy",
+        "style_guide": "BJCP2021",
+        "type": "beer"
       },
       {
         "name": "Brown IPA",
         "style_id": "21B3",
         "category": "Specialty IPA",
-        "categorynumber": "21",
-        "overallimpression": "Hoppy, bitter, and moderately strong like an American IPA, but with dark caramel, chocolate, toffee, or dark fruit character as in an American Brown Ale. Retaining the dryish finish and lean body that makes IPAs so drinkable, a Brown IPA is a little more flavorful and malty than an American IPA without being sweet or heavy.",
+        "category_id": "21",
+        "overall_impression": "Hoppy, bitter, and moderately strong like an American IPA, but with dark caramel, chocolate, toffee, or dark fruit character as in an American Brown Ale. Retaining the dryish finish and lean body that makes IPAs so drinkable, a Brown IPA is a little more flavorful and malty than an American IPA without being sweet or heavy.",
         "aroma": "Moderate to moderately-high hop aroma, often with a stone fruit, tropical fruit, citrus, resin, pine, berry, or melon character. Medium-low to medium malty-sweet aroma mixes in well with the hop selection, and often features milk chocolate, cocoa, toffee, nuts, biscuits, dark caramel, toasted bread, or dark fruit character. Clean fermentation profile. Light esters optional. Light alcohol aroma optional.",
         "appearance": "Color ranging from reddish-brown to dark brown but not black. Clear, if not opaque. Light haze optional. Medium-sized, cream-colored to tan head with good persistence.",
         "flavor": "Medium to high hop flavor, same descriptors as aroma. Medium-low to medium clean, supportive malty flavor with same descriptors as aroma. The malt and hop choices should not produce flavor clashes. Medium-high to high bitterness, no harshness. Dry to medium finish, with a bitter, hoppy, and malty aftertaste. Low esters optional. Very low alcohol flavor optional. No highly roasted or burnt malt flavors. The malt should nearly balance the hop bitterness and flavor.",
         "mouthfeel": "Medium-light to medium body, with a smooth texture. Medium to medium-high carbonation. No harshness. Light warmth optional.",
         "comments": "Separated from American Brown Ale to better differentiate stronger, highly hopped examples from more balanced, standard-strength beers.",
         "history": "See American Brown Ale.",
-        "characteristicingredients": "Similar to an American IPA, but with medium or dark crystal malts, lightly roasted chocolate-type malts, or other intermediate color character malts. May use sugar adjuncts, including brown sugar. Any American or New World hop character is acceptable, but the hops and character malts should not clash.",
+        "ingredients": "Similar to an American IPA, but with medium or dark crystal malts, lightly roasted chocolate-type malts, or other intermediate color character malts. May use sugar adjuncts, including brown sugar. Any American or New World hop character is acceptable, but the hops and character malts should not clash.",
         "stylecomparison": "A stronger and more bitter version of an American Brown Ale, with the dry balance of an American IPA. Has less of a roasted flavor than Black IPA, but more chocolate flavors than a Red IPA.",
         "international_bitterness_units": {
           "minimum": {
@@ -4641,23 +4646,25 @@
             "value": 35
           }
         },
-        "commercialexamples": "Dogfish Head Indian Brown Ale, Harpoon Brown IPA, Russian River Janetâ€™s Brown Ale",
-        "tags": "high-strength, dark-color, top-fermented, north-america, craft-style, ipa-family, specialty-family, bitter, hoppy"
+        "examples": "Dogfish Head Indian Brown Ale, Harpoon Brown IPA, Russian River Janetâ€™s Brown Ale",
+        "tags": "high-strength, dark-color, top-fermented, north-america, craft-style, ipa-family, specialty-family, bitter, hoppy",
+        "style_guide": "BJCP2021",
+        "type": "beer"
       },
       {
         "name": "Red IPA",
         "style_id": "21B4",
         "category": "Specialty IPA",
-        "categorynumber": "21",
-        "overallimpression": "Hoppy, bitter, and moderately strong like an American IPA, but with some caramel, toffee, or fruit character as in an American Amber Ale. Retaining the dryish finish and lean body that makes IPAs so drinkable, a Red IPA is a little more flavorful and malty than an American IPA without being sweet or heavy.",
+        "category_id": "21",
+        "overall_impression": "Hoppy, bitter, and moderately strong like an American IPA, but with some caramel, toffee, or fruit character as in an American Amber Ale. Retaining the dryish finish and lean body that makes IPAs so drinkable, a Red IPA is a little more flavorful and malty than an American IPA without being sweet or heavy.",
         "aroma": "Moderate to strong hop aroma, often with a stone fruit, tropical fruit, citrus, resin, pine, berry, or melon character. Medium-low to medium malty-sweet aroma mixes in well with the hop selection, and often features medium to dark caramel, toffee, toasted bread, or dark fruit character. Clean fermentation profile. Light esters optional. Light alcohol aroma optional.",
         "appearance": "Color ranging from light reddish-amber to dark reddish-copper. Clear. Light haze optional. Medium-sized, off-white to cream-colored head with good persistence.",
         "flavor": "Medium to very high hop flavor, same descriptors as aroma. Medium-low to medium clean, supportive malty flavor with same descriptors as aroma. The malt and hop choices should not produce flavor clashes. Medium-high to very high bitterness, no harshness. Dry to medium finish, with a bitter, hoppy, and malty aftertaste. Low esters optional. Very low alcohol flavor optional. The malt should not overshadow the hop flavor and bitterness in the balance.",
         "mouthfeel": "Medium-light to medium body, with a smooth texture. Medium to medium-high carbonation. No harshness. Light warmth optional.",
         "comments": "Separated from American Amber Ale to better differentiate stronger, highly hopped examples from more balanced, standard-strength beers.",
         "history": "A modern American craft beer style, based on American IPA but with the malt flavors of an American Amber Ale. See American Amber Ale.",
-        "characteristicingredients": "Similar to an American IPA, but with medium or dark crystal malts, possibly some character malts with a light toasty aspect. May use sugar adjuncts. Any American or New World hop character is acceptable, but the hops and character malts should not clash.",
-        "stylecomparison": "A stronger, hoppier, more bitter version of American Amber Ale. Not as malty and sweet as an American Strong Ale. Drier, less alcohol, and not as malty as American Barleywine. Less chocolate and caramel than Brown IPA, but otherwise similar balance.",
+        "ingredients": "Similar to an American IPA, but with medium or dark crystal malts, possibly some character malts with a light toasty aspect. May use sugar adjuncts. Any American or New World hop character is acceptable, but the hops and character malts should not clash.",
+        "style_comparison": "A stronger, hoppier, more bitter version of American Amber Ale. Not as malty and sweet as an American Strong Ale. Drier, less alcohol, and not as malty as American Barleywine. Less chocolate and caramel than Brown IPA, but otherwise similar balance.",
         "international_bitterness_units": {
           "minimum": {
             "unit": "IBUs",
@@ -4708,23 +4715,25 @@
             "value": 17
           }
         },
-        "commercialexamples": "Avery Hog Heaven, Cigar City Tocobaga Red IPA, Modern Times Blazing World, TrÃ¶egs Nugget Nectar",
-        "tags": "high-strength, amber-color, top-fermented, north-america, craft-style, ipa-family, specialty-family, bitter, hoppy"
+        "examples": "Avery Hog Heaven, Cigar City Tocobaga Red IPA, Modern Times Blazing World, TrÃ¶egs Nugget Nectar",
+        "tags": "high-strength, amber-color, top-fermented, north-america, craft-style, ipa-family, specialty-family, bitter, hoppy",
+        "style_guide": "BJCP2021",
+        "type": "beer"
       },
       {
         "name": "Rye IPA",
         "style_id": "21B5",
         "category": "Specialty IPA",
-        "categorynumber": "21",
-        "overallimpression": "An American IPA with spicy, grainy rye malt. The rye gives a bready and peppery flavor, a creamier body, and a dry, grainy finish.",
+        "category_id": "21",
+        "overall_impression": "An American IPA with spicy, grainy rye malt. The rye gives a bready and peppery flavor, a creamier body, and a dry, grainy finish.",
         "aroma": "Prominent to intense hop aroma, often with a stone fruit, tropical fruit, citrus, resin, pine, berry, or melon character. Low peppery rye malt aroma, along with a clean, background grainy maltiness. Clean fermentation profile. Light esters optional. Light alcohol aroma optional.",
         "appearance": "Color ranging from medium gold to light reddish-amber. Clear. Light haze optional. Medium-sized, white to off-white head with good persistence.",
         "flavor": "Medium to very high hop flavor, same descriptors as aroma. Low to medium-low clean, supportive malt possibly with light caramel or toast flavors. Low to moderate grainy, peppery, spicy rye flavor that adds to the dry finish. Medium-high to very high bitterness, no harshness. Dry, bitter, hoppy aftertaste. Low esters optional. Background alcohol flavor optional.",
         "mouthfeel": "Medium-light to medium body. Smooth texture, may be lightly creamy. Medium to medium-high carbonation. No harshness. Low warmth optional.",
         "comments": "A modern American craft beer variation of American IPA. Rye malt character should be noticeable, otherwise enter in 21A American IPA.",
         "history": "A modern craft era variation of American IPA, popular among homebrewers.",
-        "characteristicingredients": "Like an American IPA, with a generous portion of rye malt. Any American or New World hop is acceptable, but the hops and malt should not clash. No caraway. No oak.",
-        "stylecomparison": "Drier, slightly spicier, and slightly creamier than an American IPA, with more of a lingering bitterness and spiciness in the finish. Does not have the intense rye malt or Weizen yeast character of a Roggenbier.",
+        "ingredients": "Like an American IPA, with a generous portion of rye malt. Any American or New World hop is acceptable, but the hops and malt should not clash. No caraway. No oak.",
+        "style_comparison": "Drier, slightly spicier, and slightly creamier than an American IPA, with more of a lingering bitterness and spiciness in the finish. Does not have the intense rye malt or Weizen yeast character of a Roggenbier.",
         "international_bitterness_units": {
           "minimum": {
             "unit": "IBUs",
@@ -4775,22 +4784,24 @@
             "value": 14
           }
         },
-        "commercialexamples": "Founders Red's Rye IPA, Sierra Nevada Ruthless Rye",
-        "tags": "high-strength, amber-color, top-fermented, north-america, craft-style, ipa-family, specialty-family, bitter, hoppy"
+        "examples": "Founders Red's Rye IPA, Sierra Nevada Ruthless Rye",
+        "tags": "high-strength, amber-color, top-fermented, north-america, craft-style, ipa-family, specialty-family, bitter, hoppy",
+        "style_guide": "BJCP2021",
+        "type": "beer"
       },
       {
         "name": "White IPA",
         "style_id": "21B6",
         "category": "Specialty IPA",
-        "categorynumber": "21",
-        "overallimpression": "A fruity, spicy, refreshing version of an American IPA, but with a lighter color, less body, and featuring the distinctive yeast or spice additions typical of a Witbier.",
+        "category_id": "21",
+        "overall_impression": "A fruity, spicy, refreshing version of an American IPA, but with a lighter color, less body, and featuring the distinctive yeast or spice additions typical of a Witbier.",
         "aroma": "Moderate esters, often orange, grapefruit, apricot, or sometimes banana. Light spices optional, usually coriander, orange peel, pepper, or clove. Medium-low to medium hop aroma, often stone fruit, citrus, or tropical fruit. Esters and spices may reduce perception of hop aroma. Low neutral, grainy, or bready malt. Light alcohol aroma optional.",
         "appearance": "Pale to deep golden color. Typically hazy. Moderate to large, dense white head that persists.",
         "flavor": "Moderate to high esters, medium-low to medium-high hop flavor, and light spices, all with the same descriptors as aroma. Light malt flavor, perhaps a bit bready. High bitterness. Moderately dry, refreshing finish. Background alcohol flavor optional.",
         "mouthfeel": "Medium-light body. Medium to medium-high carbonation. Light spice astringency optional. Low warmth optional.",
         "comments": "A craft beer interpretation of American IPA crossed with a Witbier. Spice impression may come from Belgian yeast, spice additions, or both.",
         "history": "American craft brewers developed the style as a late winter or spring seasonal beer to appeal to Witbier and IPA drinkers alike.",
-        "characteristicingredients": "Pale and wheat malts, Belgian Witbier yeast, citrusy American type hops. Coriander and orange peel optional.",
+        "ingredients": "Pale and wheat malts, Belgian Witbier yeast, citrusy American type hops. Coriander and orange peel optional.",
         "stylecomparison": "Bitter, hoppy, and stronger like an American IPA but fruity, spicy, and light like a Witbier. Typically late hops are not as prominent as in American IPA.",
         "international_bitterness_units": {
           "minimum": {
@@ -4842,22 +4853,24 @@
             "value": 6
           }
         },
-        "commercialexamples": "Lagunitas A Little Sumpin' Sumpin' Ale, New Belgium Accumulation",
-        "tags": "high-strength, pale-color, top-fermented, north-america, craft-style, ipa-family, specialty-family, bitter, hoppy, spice"
+        "examples": "Lagunitas A Little Sumpin' Sumpin' Ale, New Belgium Accumulation",
+        "tags": "high-strength, pale-color, top-fermented, north-america, craft-style, ipa-family, specialty-family, bitter, hoppy, spice",
+        "style_guide": "BJCP2021",
+        "type": "beer"
       },
       {
         "name": "Brut IPA",
         "style_id": "21B7",
         "category": "Specialty IPA",
-        "categorynumber": "21",
-        "overallimpression": "A very pale, hop-forward American IPA variant with a bone-dry finish, very high carbonation, and a restrained bitterness level. Can be suggestive of a sparkling white wine or Champagne. The hop character is modern, and emphasizes flavor and aroma dimensions.",
+        "category_id": "21",
+        "overall_impression": "A very pale, hop-forward American IPA variant with a bone-dry finish, very high carbonation, and a restrained bitterness level. Can be suggestive of a sparkling white wine or Champagne. The hop character is modern, and emphasizes flavor and aroma dimensions.",
         "aroma": "Moderately high to intense hop aroma, very bright and hop-forward in the balance. Modern American and New World hop varieties provide a wide range of possible characteristics, such as tropical, stone fruit, citrusy, or white grape, but not grassy, vegetal, or herbal. Malt is subtle, neutral, and in the background, but never caramelly or overly corny-sweet. A light, clean alcohol note is optional. Very clean fermentation character; should not be yeasty.",
         "appearance": "Very pale color, ranging from very pale straw to very light gold. Crystal clear but a touch of haze is acceptable. High to very high carbonation gives a massive, rocky, billowy, white head with tight, persistent bubbles.",
         "flavor": "High to very high hop flavor, same descriptors as aroma. Low to very low neutral malt character, subtle in the balance. No strong malt flavors, no caramel. Perceived bitterness is low to very low due to the bone-dry finish and very high carbonation. Neutral to slightly fruity fermentation profile. No diacetyl. Dry to very dry finish with a fresh, hoppy aftertaste, and a clean bitterness.",
         "mouthfeel": "Light to very light body with a spritzy carbonation (high to very high), reminiscent of a sparkling white wine. No bitter, harsh, hop-derived astringency. Alcohol warmth may be present but should never be hot.",
         "comments": "Original concept was a sparkling wine-like IPA, although the hop character now varies more widely. Very low final gravity and high carbonation makes balance critical, often requiring a surprisingly low measured bitterness. â€˜Brutâ€™ is a wine term indicating dryness. Used incorrectly, added enzymes can cause diacetyl, which is always a flaw.",
         "history": "A modern craft beer style originating in 2017 at the (now closed) Social Kitchen & Brewery in San Francisco as a west coast reaction to the rising trend of east coast hazy and juicy IPAs as well as thick and sweet so-called milkshake IPAs.",
-        "characteristicingredients": "Pilsner or very pale base malts with up to 40% adjuncts. No crystal malt or lactose. Enzymes, such as amyloglucosidase. Highly aromatic, oil-heavy, modern American or New World hops used in a variety of late-hopping or post-boil procedures to emphasize hop aroma and flavor and to minimize bitterness. Neutral yeast.",
+        "ingredients": "Pilsner or very pale base malts with up to 40% adjuncts. No crystal malt or lactose. Enzymes, such as amyloglucosidase. Highly aromatic, oil-heavy, modern American or New World hops used in a variety of late-hopping or post-boil procedures to emphasize hop aroma and flavor and to minimize bitterness. Neutral yeast.",
         "stylecomparison": "Less malt flavor, bitterness, and color than an American IPA, and much drier and more highly carbonated. Dry-hopped like an American IPA. Similar aroma and flavor as a Hazy IPA but without sweetness and with much less haze. Very pale, highly carbonated, and dry like a Belgian Golden Strong Ale but not as strong and without Belgian yeast character.",
         "international_bitterness_units": {
           "minimum": {
@@ -4909,7 +4922,9 @@
             "value": 4
           }
         },
-        "commercialexamples": "Drakeâ€™s Brightside Extra Brut IPA, Fair State Brewing Co-Op The Brut Squad, Ommegang Brut IPA",
+        "style_guide": "BJCP2021",
+        "type": "beer",
+        "examples": "Drakeâ€™s Brightside Extra Brut IPA, Fair State Brewing Co-Op The Brut Squad, Ommegang Brut IPA",
         "tags": "high-strength, pale-color, top-fermented, north-america, craft-style, ipa-family, specialty-family, bitter, hoppy"
       },
       {
@@ -5692,6 +5707,7 @@
         "overall_impression": "A tart, lightly-bittered historical central European wheat beer with a distinctive but restrained salt and coriander character. Very refreshing, with a dry finish,high carbonation, and bright flavors.Aroma",
         "notes": "Light to moderately fruity aroma of pome fruit. Light sourness, slightly sharp. Noticeable coriander, which can have an aromatic lemony quality, and an intensity up to moderate. Light bready, doughy, yeasty character like uncooked sourdough bread. The acidity and coriander can give a bright, lively impression. The salt may be perceived as a very light, clean sea breeze character or just a general freshness, if noticeable at all.",
         "appearance": "Unfiltered, with a moderate to full haze. Moderate to tall white head with tight bubbles and good retention. Effervescent. Yellow color.",
+        "aroma": "Light to moderately fruity aroma of pome fruit. Light sourness, slightly sharp. Noticeable coriander, which can have an aromatic lemony quality, and an intensity up to moderate. Light bready, doughy, yeasty character like uncooked sourdough bread. The acidity and coriander can give a bright, lively impression. The salt may be perceived as a very light, clean sea breeze character or just a general freshness, if noticeable at all.",
         "flavor": "Noticeable sourness, medium-low to medium-high. Moderate bready or doughy malt flavor. Light to moderate fruity character of pome fruit, stone fruit, or lemons. Light to moderate salt character, up to the threshold of taste; the salt should be noticeable (particularly in the initial taste) but not taste overtly salty. Very low bitterness.No hop flavor. Dry, fully-attenuated finish, with acidity not hops balancing the malt. Acidity can be more noticeable in the finish, and enhance the refreshing quality of the beer. The acidity should be balanced, not forward (although historical versions could be very sour). No THP.",
         "mouthfeel": "High to very high carbonation.Effervescent. Medium-light to medium-full body. Salt may give a slightly tingly, mouthwatering quality and a rounder, thicker mouthfeel. Yeast and wheat can alsoadd a little body, but shouldn't feel heavy due to the thinning effects of acidity.",
         "comments": "Historical versions may have been more sour than modern examples due to spontaneous fermentation, and may be blended with syrups as is done with Berliner Weisse, or with caraway liqueur. Modern examples are inoculated with Lacto, and are more balanced and generally don't need sweetening. Pronounced GOH-zeh.",
@@ -6959,15 +6975,15 @@
         "category": "Argentine Styles",
         "category_id": "X",
         "style_id": "X1",
-        "notes": "Suggested style placement: Category 18 (Pale American Beer)En sus comienzos los cerveceros caseros argentinos estaban muy limitados: no existían los extractos, sólo malta pilsen y lúpulo Cascade. Sólo levaduras secas, comúnmente Nottingham, Windsor o Safale. Con estos ingredientes, los cerveceros argentinos desarrollaron una versión específica de la Blond Ale, llamda Dorada Pampeana.",
-        "impresion_general": "Fácilmente bebible, accesible, con orientación a malta.",
-        "aroma": "aroma dulce maltoso ligero a moderado. Es aceptable el aroma frutal bajo a moderado. Debe tener aroma a lúpulo bajo a medio. Sin diacetilo.",
-        "aspecto": "color amarillo claro a dorado profundo. Claro a brillante. Espuma baja a medio con buena retención.",
-        "sabor": "Dulzor maltoso inicial suave. Típicamente ausentes los flavors a caramelo. Flavor a lúpulo ligero a moderado (usualmente Cascade), pero no debería ser agresivo. Amargor bajo a moderado, pero el balance tiende a la malta. Final medio-seco o algo dulce. Sin diacetilo.",
-        "sensacion_en_boca": "Cuerpo mediano ligero a medio. Carbonatación media a alta. Sensación suave sin amargor áspero o astringencia.",
-        "comentarios": "es dificultoso lograr el balance.",
-        "historia": "los primeros cerveceros argentinos sólo accedían a malta pilsen y lúpulo cascade y con ellos desarrollaron esta variante de Blond Ale.",
-        "ingredientes": "usualmente solo malta pálida o pilsen, aunque puede incluir bajas proporciones de malta caramelizadas. Comúnmente lúpulo Cascade. Levaduras americanas limpias, británicas levemente frutadas o Kölsch, usualmente acondicionada en frío.",
+        "notes": "Suggested style placement: Category 18 (Pale American Beer)\nIn its early days, Argentine homebrewers were very limited: there were no extracts, only Pilsner malt and Cascade hops. Only dry yeasts, commonly Nottingham, Windsor, or Safale. With these ingredients, Argentine brewers developed a specific version of Blond Ale, called Dorada Pampeana.",
+        "overall_impression": "Easy to drink, approachable, malt-oriented.",
+        "aroma": "Light to moderate sweet malty aroma. Low to moderate fruity aroma is acceptable. Should have low to medium hop aroma. No diacetyl.",
+        "appearance": "Light yellow to deep golden color. Clear to brilliant. Low to medium foam with good retention.",
+        "flavor": "Soft initial malty sweetness. Caramel flavors are typically absent. Light to moderate hop flavor (usually Cascade), but should not be aggressive. Low to moderate bitterness, but the balance leans toward malt. Medium-dry or slightly sweet finish. No diacetyl.",
+        "mouthfeel": "Light-medium to medium body. Medium to high carbonation. Smooth mouthfeel without harsh bitterness or astringency.",
+        "comments": "Achieving balance is challenging.",
+        "history": "Early Argentine brewers only had access to Pilsner malt and Cascade hops, and with them developed this variant of Blond Ale.",
+        "ingredients": "Usually only pale or Pilsner malt, though small amounts of caramel malts may be included. Commonly Cascade hops. Clean American yeasts, slightly fruity British yeasts, or Kölsch yeast, usually cold-conditioned.",
         "original_gravity": {
           "minimum": {
             "unit": "sg",
@@ -7026,15 +7042,15 @@
         "category": "Argentine Styles",
         "category_id": "X",
         "style_id": "X2",
-        "notes": "Suggested style placement: Category 21 (IPA)IPA Especialidad: IPA ARGENTA",
-        "impresion_general": "Una Pale Ale Argentina decididamente amarga y lupulada, refrescante y moderadamente fuerte. La clave del estilo está en la tomabilidad sin asperezas y con un buen balance.",
-        "aroma": "Intenso aroma a lúpulo con carácter floral y cítrico, derivado de los lúpulos argentinos. Muchas versiones tienen dry-hopping, lo que otorga un carácter a hierba adicional, aunque esto no es requerido. Puede hallarse dulzura límpida a malta e inclusive algo de caramelo, pero con menor tenor que en las Ipas inglesas. Un carácter frutal leve de los ésteres es aceptable, al igual que toques fenólicos producto de la fermentación del trigo, que nunca deben ser dominantes y solo deben agregar complejidad. De todos modos, el carácter relativmente neutro de la fermentación es lo más usual. Puede notarse algo de alcohol en las versiones más fuertes. Sin DMS. El diacetil es un demérito importante en esta cerveza ya que apaga el lúpulo, por lo que nunca debe estar presente.",
-        "aspecto": "El color varía de dorado medio a cobre rojizo medio. Algunas versiones pueden tener un tinte anaranjado. Debe ser clara, aunque las versiones con dry-hopping o que contienen trigo no malteado pueden tener una leve turbiedad. Buena espuma persistente.",
-        "sabor": "A lúpulo medio a alto, debiendo reflejar el carácter del lúpulo argentino, con aspectos prominentemente cítricos a pomelo rosado y cáscara de mandarina, que deben dominar. Puede tener también tonos florales como flores de azhar o también herbal y/o resinoso aunque es menos habitual y solo debe agregar complejidad. Amargor medio a medio alto, soportado por una maltosidad limpia que proporciona un balance adecuado.Sabor a malta bajo a medio, límpido, aunque son aceptables bajos niveles acaramelados o picantes por el uso de trigo, sea o no malteado. Sin diacetil. Un bajo carácter frutal es aceptable, pero no requerido. El amargor debe permanecer en el retrogusto pero nunca debe ser áspero. Finish medio seco a seco y refrescante. Puede percibirse algún sabor a alcohol en las versiones más fuertes.",
-        "sensacion_en_boca": "cuerpo medio liviano a medio, suave, sin astringencias derivadas del lúpulo, aunque la moderada a moderada alta carbonatación puede combinarse con el trigo para dar una sensación seca, aún en presencia de la dulzura de la malta. Suave tibieza a alcohol en las versiones más fuertes (no en todas). Menor cuerpo que la IPA inglesa, y más seca que la IPA Americana.",
-        "historia": "La versión Argentina del histórico estilo inglés desarrollada en el marco de una serie de encuentros de la Asociación Civil Somos Cerveceros en 2013, donde se fueron definiendo sus características distintivas. Se diferencia de la IPA Americana por agregado de trigo a la receta de granos y el uso de lúpulos Argentinos que tienen características únicas de sabor y aroma. Se busca que las caracterísiticas cítricas del lúpulo Argentino armonicen con el trigo, como sucede en la Witbier. El agregado de bajas cantidades de trigo puede recordar al grist de la Kölsch, donde también hay un frutado producto de la fermentación.",
-        "ingredientes": "malta pálida (bien modificada y disponible para maceración simple) y una cantidad de trigo como complemento que no debe superar el 15%; El trigo puede ser malteado o sin maltear. EN el caso de agregar caramelos, deben ser limitados y preferentemente utilizando trigo caramelo. Los lúpulos Argentinos como el Cascade, Mapuche y Nugget son los usuales, aunque puede tener Spalt, Victoria y Bullion para agregar complejidad. Levadura americana que da un perfil límpido o levemente frutal. El agua varía de blanda a moderadamente sulfatada.",
-        "ejemplos_comerciales": "Antares Ipa Argenta, Kerze Ipa Argenta.",
+        "notes": "Suggested style placement: Category 21 (IPA)\nSpecialty IPA: IPA ARGENTA",
+        "overall_impression": "A distinctly bitter and hoppy Argentine Pale Ale, refreshing and moderately strong. The key to the style is drinkability without harshness and with good balance.",
+        "aroma": "Intense hop aroma with floral and citrus character, derived from Argentine hops. Many versions use dry-hopping, which adds a grassy character, though this is not required. Clean malt sweetness and even some caramel may be present, but to a lesser extent than in English IPAs. A light fruity character from esters is acceptable, as are slight phenolic notes from wheat fermentation, which should never dominate and only add complexity. Nonetheless, a relatively neutral fermentation character is most common. Some alcohol may be noticeable in stronger versions. No DMS. Diacetyl is a significant flaw in this beer as it dulls the hops, and should never be present.",
+        "appearance": "Color ranges from medium gold to medium reddish copper. Some versions may have an orange tint. Should be clear, although dry-hopped versions or those with unmalted wheat may have slight haze. Good, persistent foam.",
+        "flavor": "Medium to high hop flavor, reflecting the character of Argentine hops, with prominently citrus notes like pink grapefruit and mandarin peel, which should dominate. May also have floral tones like orange blossom, or herbal/resinous notes, though these are less common and should only add complexity. Medium to medium-high bitterness, supported by clean maltiness that provides proper balance. Low to medium clean malt flavor, though low levels of caramel or spicy notes from wheat (malted or unmalted) are acceptable. No diacetyl. A low fruity character is acceptable but not required. Bitterness should linger in the aftertaste but never be harsh. Finish is medium-dry to dry and refreshing. Some alcohol flavor may be perceived in stronger versions.",
+        "mouthfeel": "Light-medium to medium body, smooth, without hop-derived astringency, although moderate to moderately high carbonation may combine with wheat to give a dry sensation, even in the presence of malt sweetness. Gentle alcohol warmth in stronger versions (not all). Less body than English IPA, and drier than American IPA.",
+        "history": "The Argentine version of the historic English style was developed during a series of meetings by the Asociación Civil Somos Cerveceros in 2013, where its distinctive characteristics were defined. It differs from American IPA by the addition of wheat to the grain bill and the use of Argentine hops, which have unique flavor and aroma characteristics. The goal is for the citrus characteristics of Argentine hops to harmonize with the wheat, as seen in Witbier. The addition of small amounts of wheat may resemble the grist of Kölsch, which also has a fruity fermentation character.",
+        "ingredients": "Pale malt (well-modified and suitable for single infusion) and a complementary amount of wheat not exceeding 15%; wheat may be malted or unmalted. If caramel malts are added, they should be limited and preferably use caramel wheat. Argentine hops such as Cascade, Mapuche, and Nugget are common, though Spalt, Victoria, and Bullion may be used to add complexity. American yeast that produces a clean or slightly fruity profile. Water ranges from soft to moderately sulfated.",
+        "examples": "Antares Ipa Argenta, Kerze Ipa Argenta.",
         "original_gravity": {
           "minimum": {
             "unit": "sg",
@@ -7162,18 +7178,18 @@
         "category": "Brazilian Styles",
         "category_id": "X",
         "style_id": "X4",
-        "notes": "Estilo sugerido para inscrição: Categoria 29 (Fruit Beer)",
-        "impressao_geral": "Uma cerveja refrescante de trigo, ácida e com frutas, possui um caráter de frutas vivida e uma acidez lática limpa. A graduação alcoólica contida, o corpo leve, a carbonatação elevada, e amargor abaixo da percepção fazem com que a fruta fresca seja o destaque. A fruta não precisa ser de caráter tropical, mas normalmente apresenta este perfil.",
-        "aroma": "Médio à alto caráter de fruta, reconhecível e identificável de forma imediata. Uma acidez lática limpa de intensidade baixa à media que complementa a fruta. Malte tipicamente neutro, mas pode apresentar notas de pão e grãos em caráter de apoio. Fermentação limpa sem caráter de levedura selvagem ou funky. Sem aroma de lúpulo. Sem álcool agressivo. Especiarias, ervas e vegetais devem complementar a fruta se estiverem presentes.",
-        "aparencia": "Coloração tipicamente bastante clara – amarela-palha até dourada. Espuma branca de média à alta formação e média à boa retenção. A coloração da espuma e da cerveja podem ser alteradas e ficar com a coloração da fruta. Claridade pode ser bastante límpida até turva. Efervescente.",
-        "sabor": "Sabor de fruta fresca dominante em intensidade média à alta, com uma acidez lática limpa de intensidade baixa à média-alta de forma complementar mas notável. A fruta deve ter um caráter fresco, sem parecer cozida, parecida com geléia ou artificial. O malte é normalmente ausente, se presente pode ter um caráter baixo de grãos ou pão, mas não deve nunca competir com a fruta ou a acidez. Amargor do lúpulo abaixo do limiar de percepção. Final seco com um retrogosto limpo, ácido e frutado. Sem sabor de lúpulo, notas acéticas, diacetil, ou sabores funk oriundos de Brett. Especiarias, ervas e vegetais são opcionais e em caráter complementar à fruta.",
-        "sensacao_de_boca": "Corpo baixo à médio-baixo. Carbonatação média à alta. Sem aquecimento alcoólico. Acidez baixa à média-baixa sem ser agressivamente ácida ou adstringente.",
-        "comentarios": "Melhor servida fresca. A acidez pode fazer com que a cerveja pareça mais seca e com um corpo menor do que a gravidade final sugere. Uma Berliner Weisse com adição de frutas deve ser inscrita na categoria 29A Fruit Beer.",
-        "historia": "Os exemplos individuais existiam com nomes diferentes anteriormente no Brasil, mas o estilo se tornou popular com esse nome depois que foi definido formalmente em 2015 durante uma reunião entre cervejeiros profissionais e caseiros em Santa Catarina. Utilizando ingredientes locais adequados para um clima quente, o estilo se espalhou para outros estados do Brasil e além, sendo um estilo muito popular na América do Sul – tanto em competições comerciais como caseiras.",
-        "ingredientes": "Malte Pilsen com malte de trigo ou trigo não maltado. A técnica de Kettle Sour com o uso de Lacto é a mais comum de ser utilizada, seguida por uma fermentação com uma levedura ale neutra. A fruta é tipicamente adicionada nos estágios finais da fermentação. Frutas da estação frescas, comumente tropicais. Especiarias, ervas e vegetais são opcionais, mas devem sempre estar em caráter de apoio e elevar a percepção da fruta.",
-        "comparacoes_de_estilo": "Como uma Berliner Weisse mais forte, mas com fruta fresca e sem Brett. Menos ácida do que Lambic e Gueuze e sem o caráter da Brett. A partir do guia de estilos 2021, cervejas semelhantes podem ser inscritas no estilo mais amplo 28C Wild Specialty Beer Style.",
-        "exemplos_comerciais": "Armada Daenerys, Blumenau Catharina Sour Pêssego, Istepô Goiabêra, Itajahy Catharina Araçá Sour, Liffey Coroa Real, UNIKA Tangerina Clemenules",
-        "marcacoes": "estilo-craft, fruta, ácida, cerveja-specialty",
+        "notes": "Suggested style for entry: Category 29 (Fruit Beer)",
+        "overall_impression": "A refreshing wheat beer, sour and fruity, with a vivid fruit character and clean lactic acidity. The restrained alcohol level, light body, high carbonation, and barely perceptible bitterness allow the fresh fruit to stand out. The fruit doesn’t need to be tropical in nature, but it often has that profile.",
+        "aroma": "Medium to high fruit character, recognizable and immediately identifiable. A clean lactic acidity of low to medium intensity that complements the fruit. Malt is typically neutral but may show bread and grain notes in a supporting role. Clean fermentation without wild yeast or funky character. No hop aroma. No harsh alcohol. Spices, herbs, and vegetables should complement the fruit if present.",
+        "appearance": "Typically very light in color – straw-yellow to golden. White foam with medium to high formation and medium to good retention. The color of the foam and beer may be altered and reflect the fruit’s color. Clarity can range from very clear to hazy. Effervescent.",
+        "flavor": "Dominant fresh fruit flavor with medium to high intensity, complemented by clean lactic acidity ranging from low to medium-high intensity. The fruit should taste fresh, not cooked, jam-like, or artificial. Malt is usually absent; if present, it may have low grain or bread character but should never compete with the fruit or acidity. Hop bitterness below the perception threshold. Dry finish with a clean, acidic, and fruity aftertaste. No hop flavor, acetic notes, diacetyl, or funky Brett-derived flavors. Spices, herbs, and vegetables are optional and should complement the fruit.",
+        "mouthfeel": "Low to medium-low body. Medium to high carbonation. No alcoholic warmth. Low to medium-low acidity without being aggressively sour or astringent.",
+        "comments": "Best served fresh. The acidity may make the beer seem drier and lighter-bodied than the final gravity suggests. A Berliner Weisse with added fruit should be entered in category 29A Fruit Beer.",
+        "history": "Individual examples previously existed under different names in Brazil, but the style gained popularity under this name after being formally defined in 2015 during a meeting of professional and home brewers in Santa Catarina. Using local ingredients suited to a warm climate, the style spread to other Brazilian states and beyond, becoming very popular in South America – both in commercial and homebrew competitions.",
+        "ingredients": "Pilsner malt with wheat malt or unmalted wheat. The most common technique is Kettle Sour using Lacto, followed by fermentation with a neutral ale yeast. Fruit is typically added in the final stages of fermentation. Fresh seasonal fruits, often tropical. Spices, herbs, and vegetables are optional but should always support and enhance the fruit character.",
+        "style_comparison": "Like a stronger Berliner Weisse, but with fresh fruit and no Brett. Less sour than Lambic and Gueuze and without Brett character. As of the 2021 style guide, similar beers may be entered in the broader 28C Wild Specialty Beer Style.",
+        "examples": "Armada Daenerys, Blumenau Catharina Sour Peach, Istepô Goiabêra, Itajahy Catharina Araçá Sour, Liffey Coroa Real, UNIKA Tangerine Clemenules",
+        "tags": "craft-style, fruit, sour, specialty-beer",
         "original_gravity": {
           "minimum": {
             "unit": "sg",

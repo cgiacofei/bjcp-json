@@ -60,34 +60,10 @@
                 "type": "object",
                 "properties": {
                   "minimum": {
-                    "type": "object",
-                    "properties": {
-                      "unit": {
-                        "type": "string"
-                      },
-                      "value": {
-                        "type": "number"
-                      }
-                    },
-                    "required": [
-                      "unit",
-                      "value"
-                    ]
+                    "$ref": "#/definitions/unitValue"
                   },
                   "maximum": {
-                    "type": "object",
-                    "properties": {
-                      "unit": {
-                        "type": "string"
-                      },
-                      "value": {
-                        "type": "number"
-                      }
-                    },
-                    "required": [
-                      "unit",
-                      "value"
-                    ]
+                    "$ref": "#/definitions/unitValue"
                   }
                 },
                 "required": [
@@ -99,34 +75,10 @@
                 "type": "object",
                 "properties": {
                   "minimum": {
-                    "type": "object",
-                    "properties": {
-                      "unit": {
-                        "type": "string"
-                      },
-                      "value": {
-                        "type": "number"
-                      }
-                    },
-                    "required": [
-                      "unit",
-                      "value"
-                    ]
+                    "$ref": "#/definitions/unitValue"
                   },
                   "maximum": {
-                    "type": "object",
-                    "properties": {
-                      "unit": {
-                        "type": "string"
-                      },
-                      "value": {
-                        "type": "number"
-                      }
-                    },
-                    "required": [
-                      "unit",
-                      "value"
-                    ]
+                    "$ref": "#/definitions/unitValue"
                   }
                 },
                 "required": [
@@ -138,34 +90,10 @@
                 "type": "object",
                 "properties": {
                   "minimum": {
-                    "type": "object",
-                    "properties": {
-                      "unit": {
-                        "type": "string"
-                      },
-                      "value": {
-                        "type": "number"
-                      }
-                    },
-                    "required": [
-                      "unit",
-                      "value"
-                    ]
+                    "$ref": "#/definitions/unitValue"
                   },
                   "maximum": {
-                    "type": "object",
-                    "properties": {
-                      "unit": {
-                        "type": "string"
-                      },
-                      "value": {
-                        "type": "number"
-                      }
-                    },
-                    "required": [
-                      "unit",
-                      "value"
-                    ]
+                    "$ref": "#/definitions/unitValue"
                   }
                 },
                 "required": [
@@ -177,34 +105,10 @@
                 "type": "object",
                 "properties": {
                   "minimum": {
-                    "type": "object",
-                    "properties": {
-                      "unit": {
-                        "type": "string"
-                      },
-                      "value": {
-                        "type": "number"
-                      }
-                    },
-                    "required": [
-                      "unit",
-                      "value"
-                    ]
+                    "$ref": "#/definitions/unitValue"
                   },
                   "maximum": {
-                    "type": "object",
-                    "properties": {
-                      "unit": {
-                        "type": "string"
-                      },
-                      "value": {
-                        "type": "number"
-                      }
-                    },
-                    "required": [
-                      "unit",
-                      "value"
-                    ]
+                    "$ref": "#/definitions/unitValue"
                   }
                 },
                 "required": [
@@ -216,34 +120,10 @@
                 "type": "object",
                 "properties": {
                   "minimum": {
-                    "type": "object",
-                    "properties": {
-                      "unit": {
-                        "type": "string"
-                      },
-                      "value": {
-                        "type": "number"
-                      }
-                    },
-                    "required": [
-                      "unit",
-                      "value"
-                    ]
+                    "$ref": "#/definitions/unitValue"
                   },
                   "maximum": {
-                    "type": "object",
-                    "properties": {
-                      "unit": {
-                        "type": "string"
-                      },
-                      "value": {
-                        "type": "number"
-                      }
-                    },
-                    "required": [
-                      "unit",
-                      "value"
-                    ]
+                    "$ref": "#/definitions/unitValue"
                   }
                 },
                 "required": [
@@ -264,26 +144,27 @@
                 "type": "string"
               }
             },
+            "oneOf": [
+              {"required": ["vital_statistics"]},
+              {"required": [
+                "alcohol_by_volume",
+                "original_gravity",
+                "final_gravity",
+                "international_bitterness_units",
+                "color"
+              ]}
+            ],
             "required": [
-              "alcohol_by_volume",
               "appearance",
               "aroma",
               "category",
-              "category_description",
               "category_id",
-              "color",
               "comments",
-              "examples",
-              "final_gravity",
               "flavor",
               "history",
-              "ingredients",
-              "international_bitterness_units",
               "mouthfeel",
               "name",
-              "original_gravity",
               "overall_impression",
-              "style_comparison",
               "style_guide",
               "style_id",
               "tags",
@@ -301,5 +182,22 @@
   },
   "required": [
     "beerjson"
-  ]
+  ],
+  "definitions": {
+    "unitValue": {
+      "type": "object",
+      "properties": {
+        "unit": {
+          "type": "string"
+        },
+        "value": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "unit",
+        "value"
+      ]
+    }
+  }
 }
