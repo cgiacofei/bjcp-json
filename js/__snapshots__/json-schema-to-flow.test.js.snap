@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`enum format 1`] = `
+"    export type EnumType = {|
+        enumProp?:  | \\"a\\" | \\"b\\",
+    |}
+
+"
+`;
+
+exports[`regexp pattern should be rendered as str 1`] = `
+"    export type patternType = string
+"
+`;
+
+exports[`required allOf property 1`] = `
+"    export type MiscellaneousAdditionType =  MiscellaneousBase & {|
+        timing?: TimingType,
+        amount:  | VolumeType | MassType | UnitType,
+    |}
+
+"
+`;
+
+exports[`root schema type 1`] = `
+"     export type BeerJSON = {|
+        version: VersionType,
+        fermentables?: FermentableType[],
+        miscellaneous_ingredients?: MiscellaneousType[],
+        hop_varieties?: VarietyInformation[],
+        cultures?: CultureInformation[],
+        profiles?: WaterType[],
+        styles?: StyleType[],
+        mashes?: MashProcedureType[],
+        fermentations?: FermentationProcedureType[],
+        recipes?: RecipeType[],
+        equipments?: EquipmentType[],
+        boil?: BoilProcedureType[],
+        packaging?: PackagingProcedureType[],
+    |}
+"
+`;

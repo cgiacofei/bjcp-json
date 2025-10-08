@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fermentable docs should match snapshot 1`] = `
+"The schema defines the following types:
+
+## FermentableBase 
+
+FermentableBase provides unique properties to identify individual records of fermentable ingredients.
+
+**FermentableBase** is an object with these properties:
+
+|Name|Required|Type|Description|
+|--|--|--|--|
+| **name** | ✅ | string|  |
+| **type** | ✅ | \`\\"dry extract\\"\`<br/>\`\\"extract\\"\`<br/>\`\\"grain\\"\`<br/>\`\\"sugar\\"\`<br/>\`\\"fruit\\"\`<br/>\`\\"juice\\"\`<br/>\`\\"honey\\"\`<br/>\`\\"other\\"\`|  |
+| **origin** |  | string|  |
+| **producer** |  | string|  |
+| **product_id** |  | string|  |
+| **grain_group** |  | \`\\"base\\"\`<br/>\`\\"caramel\\"\`<br/>\`\\"flaked\\"\`<br/>\`\\"roasted\\"\`<br/>\`\\"specialty\\"\`<br/>\`\\"smoked\\"\`<br/>\`\\"adjunct\\"\`|  |
+| **yield** | ✅ | [YieldType](#yieldtype)|  |
+| **color** | ✅ | [ColorType](measureable_units.json.md#colortype)|  |
+
+## FermentableType 
+
+FermentableType collects the attributes of a fermentable ingredient to store as record information.
+
+**FermentableType** is an object with all properties from [FermentableBase](#fermentablebase) and these additional properties:
+
+|Name|Required|Type|Description|
+|--|--|--|--|
+| **notes** |  | string|  |
+| **moisture** |  | [PercentType](measureable_units.json.md#percenttype)|  |
+| **alpha_amylase** |  | number| Where diastatic power gives the total amount of all enzymes, alpha amylase, also known as dextrinizing units, refers to only the total amount of alpa amylase in the malted grain. A value of 25-50 is desirable for base malt. |
+| **diastatic_power** |  | [DiastaticPowerType](measureable_units.json.md#diastaticpowertype)| Diastatic power is a measurement of malted grains enzymatic content. A value of 35 Lintner is needed to self convert, while a value of 100 or more is desirable. |
+| **protein** |  | [PercentType](measureable_units.json.md#percenttype)| The percentage of protein. Higher values may indicate a possibility of haze, or lautering issues. |
+| **kolbach_index** |  | [PercentType](measureable_units.json.md#percenttype)| The Kolbach Index, also known as soluble to total ratio of nitrogen or protein, is used to indicate the degree of malt modification. A value above 35% is desired for simple single infusion mashing, undermodified malt may require multiple step mashes or decoction. |
+| **max_in_batch** |  | [PercentType](measureable_units.json.md#percenttype)| The recommended maximum percentage to use in a grain bill.  |
+| **recommend_mash** |  | boolean| True if the fermentable must be mashed, false if it can be steeped.  |
+| **inventory** |  | [FermentableInventoryType](#fermentableinventorytype)|  |
+| **glassy** |  | [PercentType](measureable_units.json.md#percenttype)| Used to indicate the 'crystallized' percentage of starches for crystal malts. |
+| **plump** |  | [PercentType](measureable_units.json.md#percenttype)| The percentage of grain that masses through sieves with gaps of 7/64 and 6/64, desired values of 80% or higher which indicate plump kernels. |
+| **half** |  | [PercentType](measureable_units.json.md#percenttype)|  |
+| **mealy** |  | [PercentType](measureable_units.json.md#percenttype)| The opposite of glassy, a mealy kernel is one that is not glassy. Base malt should be at least 90%, single step mashes generally require 95% or higher. |
+| **thru** |  | [PercentType](measureable_units.json.md#percenttype)| The Percentage of grain that makes it through a thin mesh screen, typically 5/64 inch. Values less than 3% are desired. |
+| **friability** |  | [PercentType](measureable_units.json.md#percenttype)| Friability is the measure of a malts ability to crumble during the crush, and is used as an indicator for easy gelatinization of the grain and starches, as well as modification of the malt. Value of 85% of higher indicates a well modified malt and is suitable for single step mashes. Lower values may require a step mash. |
+| **di_ph** |  | [AcidityType](measureable_units.json.md#aciditytype)| The pH of the resultant wort for 1 lb of grain mashed in 1 gallon of distilled water. Used in many water chemistry / mash pH prediction software. |
+| **viscosity** |  | [ViscosityType](measureable_units.json.md#viscositytype)| The measure of wort viscosity, typically associated with the breakdown of beta-glucans. The higher the viscosity, the greater the need for a glucan rest and the less suitable for a fly sparge. |
+| **dms_p** |  | [ConcentrationType](measureable_units.json.md#concentrationtype)| The amount of DMS precursors, namely S-methyl methionine (SMM) and dimethyl sulfoxide (DMSO) in the malt which convert to dimethyl sulfide (DMS). |
+| **fan** |  | [ConcentrationType](measureable_units.json.md#concentrationtype)| Free Amino Nitrogen (FAN) is a critical yeast nutrient. Typical values for base malt is 170. |
+| **fermentability** |  | [PercentType](measureable_units.json.md#percenttype)| Fermentability - Used in Extracts to indicate a baseline typical apparent attenuation for a typical medium attenuation yeast. |
+| **beta_glucan** |  | [ConcentrationType](measureable_units.json.md#concentrationtype)| Values of 180 or more may suggest a glucan rest and avoiding fly sparging. |
+
+## FermentableAdditionType 
+
+FermentableAdditionType collects the attributes of each fermentable ingredient for use in a recipe fermentable bill.
+
+**FermentableAdditionType** is an object with all properties from [FermentableBase](#fermentablebase) and these additional properties:
+
+|Name|Required|Type|Description|
+|--|--|--|--|
+| **timing** |  | [TimingType](timing.json.md#timingtype)| The timing object fully describes the timing of an addition with options for basis on time, gravity, or pH at any process step. |
+| **amount** | ✅ |  [VolumeType](measureable_units.json.md#volumetype) or  [MassType](measureable_units.json.md#masstype)|  |
+
+## YieldType 
+
+The potential yield of the fermentable ingredient, supporting SG, or percentage. eg 1.037 or 80% are valid yield types.
+
+**YieldType** is an object with these properties:
+
+|Name|Required|Type|Description|
+|--|--|--|--|
+| **fine_grind** |  | [PercentType](measureable_units.json.md#percenttype)| Percentage yield, compared to sucrose, of a fine grind. eg 80% |
+| **coarse_grind** |  | [PercentType](measureable_units.json.md#percenttype)| Percentage yield, compared to sucrose, of a coarse grind. eg 78% |
+| **fine_coarse_difference** |  | [PercentType](measureable_units.json.md#percenttype)| The difference between fine and coarse grind, a difference more than 2 percent can indicate a protein or step mash may be desirable. eg 2%. |
+| **potential** |  | [GravityType](measureable_units.json.md#gravitytype)| The potential yield of the fermentable ingredient for 1 lb of grain mashed in 1 gallon of water. eg 1.037 |
+
+## FermentableInventoryType 
+
+*no description yet*
+
+**FermentableInventoryType** is an object with these properties:
+
+|Name|Required|Type|Description|
+|--|--|--|--|
+| **amount** |  |  [VolumeType](measureable_units.json.md#volumetype) or  [MassType](measureable_units.json.md#masstype)|  |
+
+"
+`;
+
+exports[`format oneOf property type should match snapshot 1`] = `
+"The schema defines the following types:
+
+## typeName 
+
+*no description yet*
+
+**typeName** is an object with these properties:
+
+|Name|Required|Type|Description|
+|--|--|--|--|
+| **amount** |  |  [VolumeType](measureable_units.json.md#volumetype) or  [MassType](measureable_units.json.md#masstype)|  |
+
+"
+`;
+
+exports[`format oneOf property type should match snapshot 2`] = `
+"The schema defines the following types:
+
+## typeName 
+
+*no description yet*
+
+**typeName** is an object with these properties:
+
+|Name|Required|Type|Description|
+|--|--|--|--|
+| **amount** |  |  [VolumeType](measureable_units.json.md#volumetype) or  [MassType](measureable_units.json.md#masstype)|  |
+
+"
+`;
+
+exports[`format simple type should match snapshot 1`] = `
+"The schema defines the following types:
+
+## SpecificVolumeUnitType 
+
+*no description yet*
+
+\`\\"qt/lb\\"\`<br/>\`\\"gal/lb\\"\`<br/>\`\\"gal/oz\\"\`<br/>\`\\"l/g\\"\`<br/>\`\\"l/kg\\"\`<br/>\`\\"floz/oz\\"\`<br/>\`\\"m^3/kg\\"\`<br/>\`\\"ft^3/lb\\"\`
+"
+`;
+
+exports[`format type with pattern should match snapshot 1`] = `
+"The schema defines the following types:
+
+## patternType 
+
+*no description yet*
+
+RegExp pattern: \`\\\\d{4}-\\\\d{2}-\\\\d{2}|\\\\d{4}-\\\\d{2}-\\\\d{2}T\\\\d{2}:\\\\d{2}:\\\\d{2}\`
+"
+`;
+
+exports[`processArray should match snapshot 1`] = `
+"The schema defines the following types:
+
+## name 
+
+*no description yet*
+
+array of [FermentableType](fermentable.json.md#fermentabletype)
+"
+`;
+
+exports[`root schema docs 1`] = `
+"**beerjson** is an object with these properties:
+
+|Name|Required|Type|Description|
+|--|--|--|--|
+| **version** | ✅ | [VersionType](measureable_units.json.md#versiontype)| Explicitly encode beerjson version within list of records. |
+| **fermentables** |  | array of [FermentableType](fermentable.json.md#fermentabletype)| Records for any ingredient that contributes to the gravity of the beer. |
+| **miscellaneous_ingredients** |  | array of [MiscellaneousType](misc.json.md#miscellaneoustype)| Records for adjuncts which do not contribute to the gravity of the beer. |
+| **hop_varieties** |  | array of [VarietyInformation](hop.json.md#varietyinformation)| Records detailing the many properties of unique hop varieties. |
+| **cultures** |  | array of [CultureInformation](culture.json.md#cultureinformation)| Records detailing the wide array of unique cultures. |
+| **profiles** |  | array of [WaterType](water.json.md#watertype)| Records for water profiles used in brewing. |
+| **styles** |  | array of [StyleType](style.json.md#styletype)| Records detailing the characteristics of the beer styles for which judging guidelines have been established. |
+| **mashes** |  | array of [MashProcedureType](mash.json.md#mashproceduretype)| A collection of steps providing process information for common mashing procedures. |
+| **fermentations** |  | array of [FermentationProcedureType](fermentation.json.md#fermentationproceduretype)| A collection of steps providing process information for common fermentation procedures. |
+| **recipes** |  | array of [RecipeType](recipe.json.md#recipetype)| Records containing a minimal collection of the description of ingredients, procedures and other required parameters necessary to recreate a batch of beer. |
+| **equipments** |  | array of [EquipmentType](equipment.json.md#equipmenttype)| Provides necessary information for brewing equipment. |
+| **boil** |  | array of [BoilProcedureType](boil.json.md#boilproceduretype)| A collection of steps providing process information for common boil procedures. |
+| **packaging** |  | array of [PackagingProcedureType](packaging.json.md#packagingproceduretype)| A collection of steps providing process information for common packaging procedures. |
+"
+`;
+
+exports[`test property list with single allOf entry 1`] = `
+"The schema defines the following types:
+
+## testPropName 
+
+*no description yet*
+
+**testPropName** is an object with all properties from [StyleBase](#stylebase)
+
+
+"
+`;
